@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Poppins';
+    src: url(fonts/Poppins-Medium.ttf);
+}
+
+@font-face {
+    font-family: 'RobotoMo';
+    src: url(fonts/RobotoMono-Bold.ttf);
+}
+
+body {
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #272932;
+    font-family: Poppins;
+}
+
+.customized_box {
+    display: flex;
+    flex-direction: column;
+    width: 576px;
+    height: 357px;
+    margin: 0 0 0 300px;
+}
+
+.customized_box h1 {
+    color: white;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 44px;
+    margin: 0 0 8px 0;
+    height: 98px;
+}
+
+.customized_box h2 {
+    color: white;
+    margin: 0 0 8px 0;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+    height: 98px;
+}
+
+.customized_box p {
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 17px;
+    margin: 0 0 8px 0;
+    height: 98px;
+}
+
+.customized_box button {
+    color: #FFFFFF;
+    background-color: #272932;
+    border: 3px solid #E0C93A; 
+    width: 111px;
+    height: 39px;
+    font-family: RobotoMo;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.customized_box button:hover {
+    border-color: #867b31;
+}
+
+.vector {
+    display: flex;
+    justify-content: center;
+    margin: 81px 0;
+}
